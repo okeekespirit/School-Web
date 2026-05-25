@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+<h2>🎓 Anglican SHS</h2>
+
+<a href="index.html">Home</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="curriculum.html">Curriculum</a>
+<a href="activities.html">Activities</a>
+<a href="support.html">Support</a>
+<a href="cloud.html">Cloud Storage</a>
+</div>
+
+<div class="main">
+
+<div class="topbar">
+<h1>Anglican SHS Smart Portal</h1>
+<p>Advanced School Management System</p>
+</div>
+
+<div class="grid">
+
+    <div class="card"><h2>🔐 Student Login</h2>
+    <input placeholder="Student ID">
+    <input placeholder="Password" type="password">
+    <button>Login</button></div>
+
+    <div class="card"><h2>📚 Curriculum</h2><p>Digital learning resources.</p></div>
+    <div class="card"><h2>☁️ Cloud Storage</h2><p>Upload assignments and notes.</p></div>
+    <div class="card"><h2>⚽ Activities</h2><p>Sports and student clubs.</p></div>
+    
+</div>
+
+</div>
+
+<div class="chatbot">
+<div class="chat-header">🤖 Ebony AI Assistant</div>
+
+<div class="chat-messages" id="chatMessages">
+<div><b>Ebony AI:</b> Welcome to the smart school portal.</div>
+</div>
+
+<div class="chat-input">
+<input type="text" id="chatInput" placeholder="Ask Ebony AI...">
+<button onclick="sendMessage()">Send</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
